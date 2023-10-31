@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IndexComponent } from './index.component';
+import { UserPanelComponent } from './user-panel.component';
 
-describe('IndexComponent', () => {
-  let component: IndexComponent;
-  let fixture: ComponentFixture<IndexComponent>;
+describe('UserPanelComponent', () => {
+  let component: UserPanelComponent;
+  let fixture: ComponentFixture<UserPanelComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [IndexComponent]
+      declarations: [UserPanelComponent]
     });
-    fixture = TestBed.createComponent(IndexComponent);
+    fixture = TestBed.createComponent(UserPanelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
