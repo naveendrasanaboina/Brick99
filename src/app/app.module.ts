@@ -8,7 +8,6 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 =======
 import { UserPanelComponent } from './user-panel/user-panel.component';
-import { ServicesComponent } from './services/services.component';
 
 
 @NgModule({
@@ -20,12 +19,7 @@ import { ServicesComponent } from './services/services.component';
     ContactComponent
 =======
     AboutComponent,
-
-    UserPanelComponent,
-    ServicesComponent
-=======
     UserPanelComponent
-
 
   ],
   imports: [
