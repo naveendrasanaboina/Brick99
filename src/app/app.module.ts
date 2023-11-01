@@ -7,6 +7,8 @@ import { AboutComponent } from './about/about.component';
 
 import { ContactComponent } from './contact/contact.component';
 import { UserPanelComponent } from './user-panel/user-panel.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { UserPanelComponent } from './user-panel/user-panel.component';
     AboutComponent,
     ContactComponent,
     AboutComponent,
-    UserPanelComponent
+    UserPanelComponent,
+    RegistrationComponent,
+    HomeComponent,
 
   ],
   imports: [
